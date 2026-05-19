@@ -1,6 +1,6 @@
 # SEA-AD Cross-Species Comparison Pipeline
 
-A reproducible R pipeline for comparing mouse single-cell differential expression signatures against the Seattle Alzheimer's Disease Brain Cell Atlas ([SEA-AD](https://portal.brain-map.org/explore/seattle-alzheimers-disease); Gabitto et al., 2024, *Nature Neuroscience* 27:2366-2383). Built around the insight that **SEA-AD's all-donors aggregation masks early-phase signals through phase cancellation**, and that phase-stratified analysis is the right comparison for acute disease models.
+An R pipeline for comparing mouse single-cell differential expression signatures against the Seattle Alzheimer's Disease Brain Cell Atlas ([SEA-AD](https://portal.brain-map.org/explore/seattle-alzheimers-disease); Gabitto et al., 2024, *Nature Neuroscience* 27:2366-2383). Built around the insight that **SEA-AD's all-donors aggregation masks early-phase signals through phase cancellation**, and that phase-stratified analysis is the right comparison for acute disease models.
 
 Developed during my PhD work comparing a 3xTg-AD mouse model of peripheral cytomegalovirus infection to human Alzheimer's. Generalized: any cross-species DE comparison against SEA-AD should run with only the mouse DE table and the file path config edited.
 
