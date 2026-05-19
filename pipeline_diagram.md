@@ -1,6 +1,6 @@
 # Pipeline architecture and design decisions
 
-This document records the technical decisions behind the SEA-AD comparison pipeline so anyone reviewing the code (interview reviewer, future collaborator, future me) can understand why each piece is the way it is.
+This document records the technical decisions behind the SEA-AD comparison pipeline.
 
 ## High-level data flow
 
