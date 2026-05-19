@@ -8,9 +8,7 @@ Developed during my PhD work comparing a 3xTg-AD mouse model of peripheral cytom
 
 ## 1. Why this pipeline exists
 
-The straightforward way to compare a mouse model to human AD is to overlap your DE genes against the all-donors SEA-AD DE results. When I did this the obvious way, I got nothing — zero significant overlap in endothelial cells, Spearman rho near zero, percent-concordant at chance. The temptation was to conclude that the mouse model didn't engage AD biology.
-
-That was the wrong conclusion. SEA-AD's CPS-based DE coefficients average across 84 donors spanning the entire ADNC spectrum. The Gabitto paper itself documents two distinct disease phases:
+SEA-AD's CPS-based DE coefficients average across 84 donors spanning the entire ADNC spectrum. The Gabitto paper itself documents two distinct disease phases:
 
 | Phase | Microglia | Astrocytes | Vasculature | Pathology |
 |---|---|---|---|---|
@@ -253,8 +251,4 @@ If you use this pipeline, please cite:
 
 ---
 
-## 9. Contact
 
-Stella Wroblewski — [email]
-
-Issues and pull requests welcome.
