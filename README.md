@@ -39,9 +39,7 @@ sea-ad-cross-species/
 │   └── 06_phase_stratified_analysis.R         Analysis 7 (the headline)
 ├── example_data/
 │   └── mouse_DE_example.csv                   expected mouse DE schema
-└── docs/
-    ├── pipeline_diagram.md                    design decisions
-    └── walkthrough_notes.md                   interview cheat sheet
+
 ```
 
 Each numbered script is independently runnable after `01_load_sea_ad.R` is sourced. `run_all.R` runs them all in order.
