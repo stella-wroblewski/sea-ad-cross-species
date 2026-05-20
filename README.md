@@ -17,7 +17,7 @@ SEA-AD's CPS-based DE coefficients average across 84 donors spanning the entire 
 
 When the two phases are averaged, the early-phase IFN signal cancels the late-phase IFN reversal, the early-phase OXPHOS depletion cancels the late-phase recovery, and so on. The all-donors result understates real biology. An acute mouse model in young animals should match the early-phase initiating events, not the averaged trajectory.
 
-**This pipeline computes both the naive all-donors comparison and the phase-stratified version side by side**, so you can see directly when phase cancellation is hiding a real effect. In our hands: endothelial cells went from 0 genes at FDR<0.05 in all-donors to 20 at FDR<0.05 in early-donors. The signal was always there.
+**This pipeline computes both the naive all-donors comparison and the phase-stratified version side by side**, so you can see directly when phase cancellation is hiding a real effect. In our hands: endothelial cells went from 0 genes at FDR<0.05 in all-donors to 20 at FDR<0.05 in early-donors. 
 
 ---
 
